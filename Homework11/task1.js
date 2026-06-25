@@ -1,8 +1,7 @@
-function afterTime (text,time) {
-    setTimeout (function() {
-    console.log(`${text}`)}, time) 
+function afterTime(text, time) {
+  setTimeout(function () {
+    console.log(`${text}`);
+  }, time);
 }
 
-
-afterTime("Hello", 3000)
-
+afterTime("Hello", 3000);

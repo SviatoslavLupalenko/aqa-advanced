@@ -22,9 +22,9 @@ export class EBook extends Book {
 
   set fileFormat(format) {
     if (typeof format !== "string" || format.trim() === "") {
-      throw new Error("File format must be a non-empty string");
+      throw new Error    ("File format must be a non-empty string")
     } else {
-      this._fileFormat = format;
+      this._fileFormat = format
     }
   }
 }

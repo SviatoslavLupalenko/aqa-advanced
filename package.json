@@ -8,6 +8,6 @@
  "scripts": {
     "eslint": "eslint .",
     "prettier": "prettier . --write",
-    "test": "npm run eslint"
+    "test": "npm run prettier && npm run eslint"
   }
 }
